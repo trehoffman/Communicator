@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <!--<EditTextPreference
+        android:key="broadcast_address"
+        android:title="Broadcast Address"
+        android:defaultValue="192.168.0.255"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:singleLine="true"
+        android:maxLines="1" />-->
+
+    <EditTextPreference
+        android:key="broadcast_port"
+        android:title="Broadcast/Listener Port"
+        android:defaultValue="2055"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+</PreferenceScreen>
